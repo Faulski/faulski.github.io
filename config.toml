@@ -1,5 +1,5 @@
 # The URL the site will be built for
-base_url = "https://faulski.github.io/"
+base_url = "https://faulski.github.io/blog"
 theme = "linkita"
 
 # The default language.
