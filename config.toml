@@ -1,0 +1,39 @@
+# The URL the site will be built for
+base_url = "https://example.com"
+theme = "linkita"
+
+# The default language.
+# "en" is for English.
+default_language = "en"
+
+# The default author for pages.
+# See "extra.profiles".
+author = "Raoul Middendorff"
+
+# The site title.
+# Will be in all page titles.
+title = "No really science"
+
+# The site description.
+# Used in feeds by default.
+description = "A clean, responsive theme"
+
+# Whether to automatically compile all Sass files in the sass directory
+#compile_sass = true
+
+# Whether to build a search index to be used later on by a JavaScript library
+build_search_index = false
+
+
+
+[markdown]
+# Whether to do syntax highlighting
+# Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
+highlight_code = false
+
+[extra]
+# Put all your custom variables here
+menu = [
+  {url = "$BASE_URL", name = "Home"},
+  {url = "$BASE_URL/dnd", name = "DnD"},
+]
